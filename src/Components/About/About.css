@@ -101,12 +101,15 @@
 
 @media (max-width:786px) {
     .about{
-        gap: 80px;
-        margin: 50px 90px;
-        align-items: start;
+        gap: 20px;
+        margin: 10px 20px;
+        align-items: center;
+    }
+    .about-right{
+        gap: 25px;
     }
     .about-title h1{
-        font-size: 50px;
+        font-size: 10vw;
         padding: 0;
     }
     .about-title img{
@@ -122,6 +125,7 @@
     .about-para{
         font-size: 18px;
         line-height: 32px;
+        gap: 0px;
     }
     .about-skill{
         gap: 20px;

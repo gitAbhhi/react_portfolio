@@ -35,7 +35,7 @@
 
 .skill-card {
 
-     border: 2px solid violet;
+     border: 2px solid white;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 12px rgba(255, 255, 255, 0.64);
@@ -86,4 +86,9 @@
 
 .skill-name:hover {
     background: #30363d;
+}
+@media (max-width:1024px) {
+    .skill-img{
+        width: 5vw;
+    }
 }
