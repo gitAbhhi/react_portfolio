@@ -38,7 +38,7 @@
      border: 2px solid white;
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(255, 255, 255, 0.64);
+    /* box-shadow: 0 2px 12px rgba(255, 255, 255, 0.64); */
     transition: transform 0.3s ease-in-out;
 }
 

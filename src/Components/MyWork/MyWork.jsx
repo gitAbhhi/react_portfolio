@@ -22,7 +22,9 @@ const MyWork = () => {
       <div className="mywork-container">
         {mywork_data.slice(0,visible).map((work,index)=>(
           <div key={index} className="work-item">
+             <a href={work.w_link} target="_blank" rel="noopener noreferrer">
             <img  src={work.w_img} alt="img" />
+             </a>
             <p>{work.w_name}</p>
           </div>
         ))}
