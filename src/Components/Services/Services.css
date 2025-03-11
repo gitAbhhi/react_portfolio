@@ -63,6 +63,7 @@
 }
 .services-format:hover{
     border: 2px solid violet;
+    /* color: var(--primary-color); */
     background:rgba(27, 26, 26, 0.788);
     transform: scale(1.05);
     transition: 0.4s;
