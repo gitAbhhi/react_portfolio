@@ -7,7 +7,7 @@ const Services_Data = [
     {
       s_no: "02",
       s_name: "Software Development",
-      s_desc: "Building scalable software applications using Java"
+      s_desc: "Building scalable software applications using Java."
     },
     {
       s_no: "03",
@@ -17,7 +17,7 @@ const Services_Data = [
     {
       s_no: "04",  
       s_name: "UI/UX Design ",
-      s_desc: "Designing user-friendly and visually appealing interfaces using Figma"
+      s_desc: "Designing user-friendly and visually appealing interfaces using Figma."
     },
     {
       s_no: "05",
