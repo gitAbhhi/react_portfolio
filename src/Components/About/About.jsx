@@ -6,6 +6,7 @@ import myimage from '../../assets/mypic 2.jpg'
 
 
 const About = () => {
+
   return (
     <div id='about' className='about'>
       <div className="about-title">
@@ -15,10 +16,10 @@ const About = () => {
         {/* <img src="s.svg" alt="img" /> */}
       </div>
       <div className="about-secions">
-        <div className="about-left">
-          <img src={myimage} alt="img" />
+        <div  data-aos="fade-right" className="about-left">
+          <img  src={myimage} alt="img" />
         </div>
-        <div className="about-right">
+        <div data-aos="fade-left" className="about-right">
           <div className="about-para">
             <p>I am an experienced frontend developer with</p>
             <p>My passion for frontend development is not only</p>
@@ -31,23 +32,7 @@ const About = () => {
           </div>
          
         </div>
-      </div>
-      {/* <div className="about-achievements">
-        <div className="about-achievement">
-          <h1>10+</h1>
-          <p>Years of Experience</p>
-        </div>
-        <hr />
-        <div className="about-achievement">
-          <h1>90+</h1>
-          <p>Projects completed</p>
-        </div>
-        <hr />
-        <div className="about-achievement">
-          <h1>15+</h1>
-          <p>Happy Clients</p>
-        </div>
-      </div> */}
+      </div> 
     </div>
   )
 }
