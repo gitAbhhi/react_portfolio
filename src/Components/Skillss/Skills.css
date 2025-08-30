@@ -41,6 +41,16 @@
     /* box-shadow: 0 2px 12px rgba(255, 255, 255, 0.64); */
     transition: transform 0.3s ease-in-out;
 }
+.revealAnimation {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: all 0.7s ease-out;
+  }
+  
+  .revealAnimation.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 .skill-card:hover {
     transform: scale(1.05);
@@ -87,6 +97,7 @@
 .skill-name:hover {
     background: #30363d;
 }
+
 @media (max-width:1024px) {
     .skill-img{
         width: 5vw;

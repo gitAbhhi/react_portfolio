@@ -47,13 +47,13 @@ const mywork_data = [
     w_no: 1,
       w_name: "Amazon Clone",
       w_img: amazom,
-      w_link: "https://amazon.com",
+      w_link: "",
     },
     {
       w_no: 4,
       w_name: "Netflix Clone",
       w_img: netflix,
-       w_link: "https://amazon.com",
+       w_link: "",
     },
   ];
   export default mywork_data;
