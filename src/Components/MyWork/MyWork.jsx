@@ -19,7 +19,7 @@ const MyWork = () => {
         <h1>My latest work</h1>
         {/* <img src="s.svg" alt="img" /> */}
       </div>
-      <div className="mywork-container">
+      <div data-aos="zoom-out" className="mywork-container">
         {mywork_data.slice(0,visible).map((work,index)=>(
           <div key={index} className="work-item">
              <a href={work.w_link} target="_blank" rel="noopener noreferrer">

@@ -13,6 +13,7 @@
     background-color: #161513;
     background: var(--black-blur);
     backdrop-filter: blur(10px);
+    filter: url(#glass-distortion);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .nav-logo{

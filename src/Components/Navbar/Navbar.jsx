@@ -49,7 +49,7 @@ const Navbar = () => {
   }
   return (
     
-        <div className="navbar">
+        <div  data-aos="zoom-out" data-aos-once="true" className="navbar">
     <div className="overlay" onClick={closemenuBar}></div>
 
             <img src={logo} alt="img" className='nav-logo'  onClick={()=>setmenu("")}/>

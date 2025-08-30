@@ -29,10 +29,10 @@ const Skills = () => {
   return (
     <div className="skills-box">
     <h1 className="skills-title">Skills</h1>
-      <div className="skills-grid">
+      <div  className="skills-grid">
         {
           skills.map((skill, index) => (
-            <div key={index} className="skill-card revealAnimation">
+            <div key={index} data-aos="fade-up" className="skill-card revealAnimation">
               <h2  className='skill-category'>{skill.category}</h2>
               <div className="skill-list">
                 {
